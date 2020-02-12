@@ -1,0 +1,71 @@
+
+header
+{
+	font-size: 20px; /* Specifies the font size of text */
+	font-family: "Times New Roman", Times, serif; /* Specifies the font family for text */
+	color: white; /* Defines font colour */
+	display: inline; /* Display specifies how an element should be displayed, inline does not start on a new line and only takes up as much width as necessary */
+}
+
+header h1
+{
+	font-size: 14px;
+	font-weight: normal; /* Specifies the weight of a font */
+	color: white;
+	line-height: 3px; /* Sets element's height */
+	float: right; /* Used for positioning and formatting content */
+}
+
+nav ul li
+{
+	list-style-type: none; /* Specifies the type of list-item marker */
+	display: inline;
+	margin: 5px; /* Used to create space around elements, outside of any defined borders */
+}
+
+nav ul
+{
+	padding: 10px; /* Used to generate space around an element's content, inside of any defined borders */
+	background-color: gray; /* Specifies the background color of an element */
+}
+
+ul:after, nav ul:after
+{
+	clear:both;
+	display:block;
+	content:"";
+}
+
+article
+{
+	background-color: gray;
+	column-count: 2;
+	column-gap: 40px;
+}
+
+h2
+{
+	display: inline;
+}
+
+aside ul
+{
+	color: white;
+	display: block;
+	list-style-type: circle;
+	width: 8%;
+	float: right;
+}
+
+body
+{
+	background-color: #000f1a;
+}
+
+footer
+{
+	padding: 10px;
+	background-color: gray;
+	color: black;
+	text-align: center;
+}
